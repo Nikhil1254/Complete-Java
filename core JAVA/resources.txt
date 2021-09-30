@@ -1,0 +1,32 @@
+variables - https://www.javatpoint.com/java-variables
+Naming convention in java - https://www.javatpoint.com/java-naming-conventions
+control statements - https://www.javatpoint.com/control-flow-in-java
+objects and classes - https://www.javatpoint.com/object-and-class-in-java
+constructor - https://www.javatpoint.com/java-constructor
+this keyword - https://www.javatpoint.com/this-keyword
+method overloading - https://www.javatpoint.com/method-overloading-in-java
+constructor overloading - https://www.javatpoint.com/constructor-overloading-in-java
+static - https://www.javatpoint.com/static-keyword-in-java
+inner class - https://www.javatpoint.com/java-inner-class
+Arrays - https://www.javatpoint.com/array-in-java
+jagged array - https://www.geeksforgeeks.org/jagged-array-in-java/
+varargs(variable length arguments) - https://www.javatpoint.com/varargs
+inhertance - https://www.javatpoint.com/inheritance-in-java
+super keyword - https://www.javatpoint.com/super-keyword
+method overriding - https://www.javatpoint.com/method-overriding-in-java
+dynamic method dispatch/Run time polymorphism - https://www.javatpoint.com/runtime-polymorphism-in-java
+encapsulation - https://www.javatpoint.com/encapsulation
+wrapper classes - https://www.javatpoint.com/wrapper-class-in-java
+abstract keyword - https://www.javatpoint.com/abstract-keyword-in-java
+final keyword - https://www.javatpoint.com/final-keyword
+interfaces - https://www.javatpoint.com/interface-in-java
+difference between interface and absrtract class - https://www.javatpoint.com/difference-between-abstract-class-and-interface
+anonymous inner class - https://www.javatpoint.com/anonymous-inner-class
+lambda expession - https://www.javatpoint.com/java-lambda-expressions
+Default methods(Interface) - https://www.javatpoint.com/java-default-methods
+static methods in interface - follow interface link it has all about interfaces.
+packages in java - https://www.javatpoint.com/package
+access modifiers - https://www.javatpoint.com/access-modifiers
+Exception handling - https://www.javatpoint.com/exception-handling-in-java
+multithreading - https://www.javatpoint.com/multithreading-in-java
+synchronization - https://www.javatpoint.com/synchronization-in-java

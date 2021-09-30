@@ -1,0 +1,10 @@
+about JDBC - https://www.javatpoint.com/java-jdbc
+JDBC steps - https://www.javatpoint.com/steps-to-connect-to-the-database-in-java
+JDBC with MySql - https://www.javatpoint.com/example-to-connect-to-the-mysql-database
+Driver manager - https://www.javatpoint.com/DriverManager-class
+Connection interface - https://www.javatpoint.com/Connection-interface
+statement interace - https://www.javatpoint.com/Statement-interface
+Prepared statement - https://www.javatpoint.com/PreparedStatement-interface
+ResultSet interface - https://www.javatpoint.com/ResultSet-interface
+
+mysql theory and queries - https://www.tutorialspoint.com/sql/index.htm
