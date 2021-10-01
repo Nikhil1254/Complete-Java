@@ -30,3 +30,7 @@ access modifiers - https://www.javatpoint.com/access-modifiers
 Exception handling - https://www.javatpoint.com/exception-handling-in-java
 multithreading - https://www.javatpoint.com/multithreading-in-java
 synchronization - https://www.javatpoint.com/synchronization-in-java
+Collection - https://www.javatpoint.com/collections-in-java
+comparable - https://www.javatpoint.com/Comparable-interface-in-collection-framework
+comparator - https://www.javatpoint.com/Comparator-interface-in-collection-framework
+iterator interface - https://www.javatpoint.com/java-iterator
