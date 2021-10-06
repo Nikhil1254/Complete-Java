@@ -1,8 +1,24 @@
 package com.project.webproject;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import org.springframework.stereotype.Component;
+
+@Entity
 public class Alien {
-    int aid;
-    String aname;
+    @Id
+    private int aid;
+    private String aname;
+    private String tech;
+
+    public String getTech() {
+        return tech;
+    }
+
+    public void setTech(String tech) {
+        this.tech = tech;
+    }
 
     public int getAid() {
         return aid;
@@ -22,7 +38,7 @@ public class Alien {
 
     @Override
     public String toString() {
-        return "Alien [aid=" + aid + ", aname=" + aname + "]";
+        return "Alien [aid=" + aid + ", aname=" + aname + ", tech=" + tech + "]";
     }
 
 }

@@ -7,18 +7,14 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="AddAlien">
+    <form action="deleteRecord">
       <table>
         <tr>
-          <td><label for="aid">aid</label></td>
+          <td>aid</td>
           <td><input type="text" name="aid" /></td>
         </tr>
-        <tr>
-          <td><label for="aname">aname</label></td>
-          <td><input type="text" name="aname" /></td>
-        </tr>
       </table>
-      <input type="submit" />
+      <input type="submit" value="Delete" />
     </form>
   </body>
 </html>
