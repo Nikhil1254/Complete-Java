@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>I love coding.</h1>
+    <h1>welcome ${obj.aid}, ${obj.aname} ,${obj.lang} </h1>
 </body>
 </html>
