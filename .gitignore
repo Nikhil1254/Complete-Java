@@ -1,3 +1,7 @@
 /.vscode
 *.class
 /bin/
+/Servlet and JSP/Testing_Application/target/
+/Servlet and JSP/sample_project/target/
+/Servlet and JSP/sampleProject/target/
+/Servlet and JSP/sample2/target/
