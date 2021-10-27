@@ -30,7 +30,18 @@ public class FirstServlet implements Servlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         out.println("<h1>This is first servlet using Servlet interface.</h1>");
-        out.println("<h1>Todays date and time is "+ new Date().toString()+"</h1>");
+        out.println("<h4 fontsize=30px>");
+        out.println("<br/>Servlet is a interface which is present in javax.servlet package");
+        out.println("It has 5 abstract methods - <br/>");
+        out.println("1)public void init(ServletConfig)<br/>");
+        out.println("2)public void service(ServletRequest req,ServletResponse resp) throws ServletException,IOException <br/>");
+        out.println("3)void destroy()<br/>");
+        out.println("4)String getServletInfo()<br/>");
+        out.println("5)ServletConfig getServletConfig()<br/>");
+        out.println("First 3 are lifecycle methods of servlet and oher two are non lifecycle methods.<br/>");
+        out.println("As Servlet is an interface we have to implement all this methods in our servlet.");
+        out.println("<h4/>");
+    
     }
 
     @Override

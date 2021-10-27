@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>We will learn about session tracking techniques in this module.</h1>
+        <ul>
+            <li>Cookies</li>
+            <li>Hidden Form Fields</li>
+            <li>URL Rewriting</li>
+            <li>HttpSession</li>
+        </ul>
+
+        <h2>Cookies example -</h2>
+        <h3>There is one drawback of cookies,we cant use space in our value(data).i.e.some special characters are not allowed as value in cookies.</h3>
+        <form action="servlet1" method="post">
+            <input type="text" name="name" placeholder="Enter our name" />
+            <br/>
+            <button type="submit">Go to servlet 1</button>
+        </form>
+        
+        <h2>URL Rewriting example -</h2>
+        <form action="servlet3" method="post">
+            <input type="text" name="name" placeholder="Enter our name" />
+            <br/>
+            <button type="submit">Go to servlet 3</button>
+        </form>
+        
+        
+        <h2>Hidden Form Field example -</h2>
+        <form action="servlet5" method="post">
+            <input type="text" name="name" placeholder="Enter our name" />
+            <br/>
+            <button type="submit">Go to servlet 5</button>
+        </form>
+        
+        <h2>HttpSession example -</h2>
+        <form action="servlet7" method="post">
+            <input type="text" name="name" placeholder="Enter our name" />
+            <br/>
+            <button type="submit">Go to servlet 7</button>
+        </form>
+        
+    </body>
+</html>

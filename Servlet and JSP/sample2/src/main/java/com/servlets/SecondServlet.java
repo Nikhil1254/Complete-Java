@@ -23,6 +23,13 @@ public class SecondServlet extends GenericServlet{
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         out.println("<h1>This is my second servlet using GenericServlet.</h1>");
+        out.println("<div style='font-size:30px;'>");
+        out.println("GenericServlet is a class which extends Servlet Interface.<br/>");
+        out.println("In this class out of 5 methods 4 methods has given body.<br/>");
+        out.println("only for service() method body is not given.<br/>");
+        out.println("So when we create our servlet by extending this class <br/>");
+        out.println("we have to give body to service() method only.");
+        out.println("</div>");
     }
     
 }
