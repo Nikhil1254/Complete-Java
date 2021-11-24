@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:c="http://www.springframework.org/schema/c">
+
+	<bean class="com.springcore.contructorInjection.Certi" name="certi1">
+		<constructor-arg value="Java" />
+	</bean>
+
+	<bean class="com.springcore.contructorInjection.Certi" name="certi2">
+		<constructor-arg value="Python" />
+	</bean>
+
+	<bean class="com.springcore.contructorInjection.Certi" name="certi3">
+		<constructor-arg value="DSA" />
+	</bean>
+	<!--in 3 ways we can do injecting like we discussed in property injection also
+	1.using value tag 2.using value as an attribute 3.using c schema
+	c stands for constructor and p stands for property-->
+
+
+	<!-- 1.Using value as an element-->
+	<bean class="com.springcore.contructorInjection.Person" name="person1">
+		<constructor-arg>
+			<value>321</value>
+		</constructor-arg>
+
+		<constructor-arg>
+			<value>Nikhil</value>
+		</constructor-arg>
+
+		<constructor-arg>
+			<ref bean="certi1" />
+		</constructor-arg>
+
+		<constructor-arg>
+			<list>
+				<value>Pyhton</value>
+				<value>Java</value>
+				<value>Cpp</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<!-- 2.By using ref and value as an argument -->
+	<bean class="com.springcore.contructorInjection.Person" name="person2">
+		<constructor-arg value="657" />
+		<constructor-arg value="Kedar" />
+		<constructor-arg ref="certi2" />
+		<!--<constructor-arg>
+			<list>
+				<value>C</value>
+				<value>Kotlin</value>
+				<value>Java</value>
+			</list>
+		</constructor-arg>-->
+		<constructor-arg value="C,Golang,Python" />
+	</bean>
+
+
+	<!-- 3.using c schema -->
+	<bean class="com.springcore.contructorInjection.Person" name="person3" c:id="781" c:name="Ravi" c:list="Java,Python,DSA" c:certi-ref="certi3" />
+
+	<!--learning about ambiquty problem and its solution
+	learning about type and index attribute-->
+	<bean class="com.springcore.contructorInjection.Addition" name="add">
+		<constructor-arg value="12" type="double" index="1"/>
+		<constructor-arg value="8" type="double" index="0"/>
+	</bean>
+
+</beans>
