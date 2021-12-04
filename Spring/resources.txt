@@ -1,2 +1,0 @@
-about maven - https://www.javatpoint.com/maven-tutorial
-Spring - https://www.tutorialspoint.com/spring/index.htm

@@ -2,12 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean class="com.springcore.auto.wire.Address" name="address1">
+	<bean class="com.springcore.auto.wire.Address" name="address">
 		<property name="street" value="Aurangabad Highway" />
 		<property name="city" value="Nagar" />
 	</bean>
 
-	<bean class="com.springcore.auto.wire.Address" name="address">
+	<bean class="com.springcore.auto.wire.Address" name="add">
 		<property name="street" value="Nashik Highway" />
 		<property name="city" value="Jalgaon" />
 	</bean>

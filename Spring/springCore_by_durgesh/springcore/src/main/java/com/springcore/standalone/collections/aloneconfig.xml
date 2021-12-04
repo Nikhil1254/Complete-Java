@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util.xsd
+">
+
+	<!--creating standalone collections-->
+	<util:list list-class="java.util.ArrayList" id="myFriends">
+		<value>Ramesh</value>
+		<value>Raj</value>
+		<value>Nikhil</value>
+		<value>Kedar</value>
+		<value>Vishawajeet</value>
+	</util:list>
+
+	<util:map map-class="java.util.TreeMap" id="myCourses">
+		<entry key="Python" value="3000" />
+		<entry key="Java" value="5000" />
+		<entry key="spring" value="8000" />
+	</util:map>
+
+	<!--we have to give only id to Properties beacause its a class and not an interface
+	thats why we dont give implementaton class in case of Properties-->
+	<util:properties id="db_properties">
+		<prop key="driver">com.mysql.jdbc.Driver</prop>
+		<prop key="username">Nikhil</prop>
+		<prop key="password">Forcedile@123</prop>
+		<prop key="url">mysql:jdbc://localhost:3306/database</prop>
+	</util:properties>
+
+
+	<!--beans-->
+	<bean class="com.springcore.standalone.collections.Person" name="person1">
+		<property name="friends" ref="myFriends" />
+		<property name="feeStructure" ref="myCourses" />
+		<property name="properties" ref="db_properties" />
+	</bean>
+
+</beans>

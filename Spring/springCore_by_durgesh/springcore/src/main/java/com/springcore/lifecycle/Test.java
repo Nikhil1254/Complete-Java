@@ -3,12 +3,13 @@ package com.springcore.lifecycle;
 import java.awt.Container;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
 	public static void main(String[] args) {
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext(
+		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext(
 				"com/springcore/lifecycle/lifeCycleConfig.xml");
 
 //		 way1 of implementing lifecycle methods - through XML

@@ -1,22 +1,22 @@
 package com.springcore.auto.wire;
 
 public class Emp {
-	private Address address;
+	private Address add;
 
 	// getters and setters
-	public Address getAddress() {
-		return address;
+	public Address getAdd() {
+		return add;
 	}
 
-	public void setAddress(Address address) {
-		this.address = address;
+	public void setAdd(Address address) {
+		this.add = address;
 		System.out.println("Inside setter");
 	}
 
 	// constructors
 	public Emp(Address address) {
 		super();
-		this.address = address;
+		this.add = address;
 		System.out.println("Inside constructor");
 	}
 
@@ -26,7 +26,7 @@ public class Emp {
 
 	@Override
 	public String toString() {
-		return "Emp [address=" + address + "]";
+		return "Emp [address=" + add + "]";
 	}
 
 }
