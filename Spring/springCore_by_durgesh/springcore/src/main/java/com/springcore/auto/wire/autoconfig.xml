@@ -12,7 +12,7 @@
 		<property name="city" value="Jalgaon" />
 	</bean>
 
-	<bean class="com.springcore.auto.wire.Emp" name="emp" autowire="constructor" />
-
-
+	<bean class="com.springcore.auto.wire.Emp" name="emp" autowire="constructor">
+		<constructor-arg value="Nikhil" index="0" />
+	</bean>
 </beans>

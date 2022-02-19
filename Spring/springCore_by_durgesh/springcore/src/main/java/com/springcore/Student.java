@@ -5,7 +5,7 @@ public class Student {
 	private String studentName;
 	private String studentAddress;
 
-	//getters and setters
+	// getters and setters
 	public int getStudentId() {
 		return studentId;
 	}
@@ -33,7 +33,7 @@ public class Student {
 		this.studentAddress = studentAddress;
 	}
 
-	//constructors
+	// constructors
 	public Student(int studentId, String studentName, String studentAddress) {
 		super();
 		this.studentId = studentId;
@@ -42,10 +42,10 @@ public class Student {
 	}
 
 	public Student() {
-		super();
+		System.out.println("-------------------------Hello I'm Student constructor.---------------");
 	}
 
-	//toString method
+	// toString method
 	@Override
 	public String toString() {
 		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentAddress=" + studentAddress

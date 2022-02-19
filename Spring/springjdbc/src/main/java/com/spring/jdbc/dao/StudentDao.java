@@ -5,13 +5,13 @@ import java.util.List;
 import com.spring.jdbc.entities.Student;
 
 public interface StudentDao {
-	// for inserting data
+	// inserting data
 	int insert(Student student);
 
-	// for changing existing data
+	// updating data
 	int change(Student student);
 
-	// delete student
+	// delete data
 	int delete(int id);
 
 	// get single student data

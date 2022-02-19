@@ -5,7 +5,7 @@
 	<!--way1 of creating bean and setting its values using setter injection -->
 	<!-- using value tag to set the values -->
 	<!-- if we are using property tag means its setter injection -->
-	<bean class="com.springcore.Student" name="student1">
+	<bean class="com.springcore.Student" lazy-init="true" name="student1" scope="prototype">
 		<property name="studentId">
 			<value>512</value>
 		</property>
@@ -21,7 +21,7 @@
 
 	<!--way2 of creating bean and setting values using setter injection-->
 	<!-- using value as a attribute in property tag -->
-	<bean class="com.springcore.Student" name="student2">
+	<bean class="com.springcore.Student" lazy-init="true" id="s2">
 		<property name="studentId" value="721" />
 		<property name="studentName" value="Ram" />
 		<property name="studentAddress" value="Jamner" />
@@ -30,5 +30,5 @@
 	<!-- way3 of creating bean and setting values using setter injection -->
 	<!-- using p schema setting properties p:properties-->
 	<!-- we have to include that schema in beans first then we can use it -->
-	<bean class="com.springcore.Student" name="student3" p:studentId="420" p:studentName="Ramesh" p:studentAddress="Jalgaon" />
+	<bean class="com.springcore.Student" lazy-init="true" name="student3" p:studentId="420" p:studentName="Ramesh" p:studentAddress="Jalgaon" />
 </beans>

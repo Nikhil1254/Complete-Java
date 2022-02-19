@@ -7,6 +7,7 @@ public class Emp {
 	private List<String> phones;
 	private Set<String> addresses;
 	private Map<String, String> courses;
+	private Properties friends;
 
 	// getters and setters
 	public String getName() {
@@ -41,6 +42,14 @@ public class Emp {
 		this.courses = courses;
 	}
 
+	public Properties getFriends() {
+		return friends;
+	}
+
+	public void setFriends(Properties friends) {
+		this.friends = friends;
+	}
+
 	// constructors -
 	public Emp(String name, List<String> phones, Set<String> addresses, Map<String, String> courses) {
 		super();
@@ -55,10 +64,11 @@ public class Emp {
 		// default constructor
 	}
 
-	// toString for printing refference
+	// toString method
 	@Override
 	public String toString() {
-		return "Emp [name=" + name + "]";
+		return "Emp [name=" + name + ", phones=" + phones + ", addresses=" + addresses + ", courses=" + courses
+				+ ", friends=" + friends + "]";
 	}
 
 }

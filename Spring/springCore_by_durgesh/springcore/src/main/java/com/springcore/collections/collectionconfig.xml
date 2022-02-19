@@ -23,10 +23,17 @@
 		</property>
 		<property name="courses">
 			<map>
-				<entry key="Python"  value="2Months" />
+				<entry key="Python" value="2Months" />
 				<entry key="Cpp" value="1.5Months" />
 				<entry key="Java" value="3Months"></entry>
 			</map>
+		</property>
+		<property name="friends">
+			<props>
+				<prop key="friend1">Kedar</prop>
+				<prop key="friend2">Jeet</prop>
+				<prop key="friend3">Manjunath</prop>
+			</props>
 		</property>
 	</bean>
 </beans>

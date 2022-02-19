@@ -15,6 +15,7 @@ public class Test {
 		System.out.println("Address: " + emp1.getAddresses());
 		System.out.println("Courses: " + emp1.getCourses());
 		System.out.println("Phones: " + emp1.getPhones());
+		System.out.println("Friends: " + emp1.getFriends());
 
 	}
 

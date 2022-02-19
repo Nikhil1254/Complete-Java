@@ -26,6 +26,7 @@ public class Test {
 		System.out.println("prototype scope(2 different objects get created)");
 		System.out.println(t1.hashCode());
 		System.out.println(t2.hashCode());
+
 	}
 
 }
